@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="assets/reset.css" rel="stylesheet">
+		<link href="assets/style.css" rel="stylesheet">
+		<script defer src="assets/arena.js"></script>
+		<script defer src="assets/main.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="https://www.are.na/laurel-schwulst/eggs-in-art-and-design" id="channel-url">
+				<h1 class="channel-title"></h1>
+			</a>
+		</header>
+		<main>
+			<ul class="image-blocks link-blocks text-blocks">
+			</ul>
+		</main>
+		<!-- Images. -->
+		<template id="image-block">
+			<li class="image-block">
+				<figure>
+					<img class="image-square">
+				</figure>
+				<aside>
+					<img class="image">
+					<p class="title"></p>
+				</aside>
+			</li>
+		</template>
+		<!-- Links. -->
+		<template id="link-block">
+			<li class="link-block">
+				<figure>
+					<img class="image-square">
+				</figure>
+			</li>
+		</template>
+		<!-- Text. -->
+		<template id="text-block">
+			<li class="text-block">
+				<figure class="content">
+				</figure>
+			</li>
+		</template>
+	</body>
+</html>
